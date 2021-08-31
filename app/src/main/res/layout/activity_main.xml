@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundo"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/peso"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tô gordo?"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual seu peso?"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="18dp"
+        android:inputType="number"
+        android:background="@drawable/formato_retangular_cantos_redondos"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qual sua altura?"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="18dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/formato_retangular_cantos_redondos"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/formato_retangular_cantos_redondos"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="21"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="64sp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/formato_circulo"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso ideal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
